@@ -48,6 +48,10 @@ body {
 .hero-section .hero-subtitle span:hover::before {
 	height: 20px;
 }
+.hero-section .hero-left,
+.hero-section .hero-right {
+	flex: 1;
+}
 .hero-section .hero-left {
 	width: 60%;
 }
