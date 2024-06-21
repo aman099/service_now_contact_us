@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Now</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--  -->
+  <!-- Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!--  -->
+  <!-- Google Fonts (Poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--  -->
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+
+<body>
+  <div class="hero-section stars">
+    <div class="hero-left">
+      <div class="form-container">
+        <form action="">
+          <h1 class="hero-title">Talk with a sales expert</h1>
+          <p class="hero-subtitle"><span>Log in</span> now to connect with an expert</p>
+          <div class="input-cont cont-1">
+            <input type="text" required>
+            <label>Business E-mail*</label>
+          </div>
+          <div class="input-cont cont-2">
+            <input type="text" required>
+            <label>First Name*</label>
+          </div>
+          <div class="input-cont cont-3">
+            <input type="text" required>
+            <label>Last Name*</label>
+          </div>
+          <div class="input-cont cont-4">
+            <input type="text" required>
+            <label>Company*</label>
+          </div>
+          <div class="input-cont cont-5">
+            <input type="text" required>
+            <label>Telephone*</label>
+          </div>
+          <div class="input-cont cont-6">
+            <select name="Department" id="">
+              <option selected disabled value="Technical">Job Level*</option>
+              <option value="Technical">Technical</option>
+              <option value="Non-Technical">Non-Technical</option>
+              <option value="Finance">Finance</option>
+              <option value="Government">Government</option>
+            </select>
+          </div>
+          <div class="input-cont cont-7">
+            <select name="Department" id="">
+              <option selected disabled value="Technical">Department*</option>
+              <option value="Technical">Technical</option>
+              <option value="Non-Technical">Non-Technical</option>
+              <option value="Finance">Finance</option>
+              <option value="Government">Government</option>
+            </select>
+          </div>
+          <div class="input-cont cont-8">
+            <select name="Department" id="">
+              <option selected disabled value="Technical">Country*</option>
+              <option value="Non-Technical">US - United States</option>
+              <option value="Finance">GB - Great Britain</option>
+              <option value="Government">IN - India</option>
+              <option value="Government">CH - China</option>
+            </select>
+          </div>
+          <div class="input-cont cont-9">
+            <select name="Department" id="">
+              <option selected disabled value="like-to">I would like to *</option>
+              <option value="speak">Speak with the Supervisor</option>
+              <option value="demo">Schedule Demo with ServiceNow</option>
+              <option value="learn-more">Learn More about ServiceNow</option>
+              <option value="Complaint">File a complaint</option>
+            </select>
+          </div>
+          <div class="input-cont cont-10">
+            <select name="Department" id="">
+              <option selected disabled value="Aligning">I am interested in*</option>
+              <option value="Aligning">Aligning Enterprise work</option>
+              <option value="Automatic">Automatic clooud processes</option>
+              <option value="ESG and Sustanability">ESG and Sustainability</option>
+              <option value="Global">Global Business Services</option>
+              <option value="Government">Govt Security Affairs</option>
+            </select>
+          </div>
+          <div class="input-cont cont-11">
+            <textarea name="" id="" placeholder="Additional Comments (optional)"></textarea>
+          </div>
+          <div class="checkbox-cont">
+            <input type="checkbox" name="" id="create">
+            <label for="create">Create an account for instant downloads and other premium resources <br>
+            </label>
+            <span>
+              By
+              submitting
+              this form, I confirm that I have read and agree to the Privacy Statement.
+            </span>
+          </div>
+          <div class="contact-btn">
+            <button class="primary-btn btn">Contact Sales</button>
+          </div>
+          <div class="error-msg"><span><i class="fa-solid fa-triangle-exclamation"></i></span>
+            <p class="danger">Form fields with an asterisk (*) are required.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-right-heading">
+        <h2>Ready to explore more? <br> Welcome back</h2>
+      </div>
+      <div class="hero-right-cards">
+        <div class="card card-1">
+          <div class="card-left">
+            <img src="./assets/card-1.svg" alt="AI">
+          </div>
+          <div class="card-right">
+            <h5>Put AI at work</h5>
+            <p>Empower everyone with generative AI and accelerate productivity across the enterprise.</p>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="card card-2">
+          <div class="card-left">
+            <img src="./assets/card-2.svg" alt="find support">
+          </div>
+          <div class="card-right">
+            <h5>Find support</h5>
+            <p>Get always-on access to technical support, self-help, and your ServiceNow instances.</p>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="card card-3">
+          <div class="card-left">
+            <img src="./assets/card-3.svg" alt="Collborate">
+          </div>
+          <div class="card-right">
+            <h5>Collaborate with community</h5>
+            <p>Tap into 300k+ users for the latest ServiceNow insights and best practices.</p>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="card card-4">
+          <div class="card-left">
+            <img src="./assets/card-4.svg" alt="locate office">
+          </div>
+          <div class="card-right">
+            <h5>Locate an office</h5>
+            <p>
+              We have experts in key regions around the world, all ready to support your digital journey.</p>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="card card-5">
+          <div class="card-left">
+            <img src="./assets/card-5.svg" alt="ServiceNow Impact">
+          </div>
+          <div class="card-right">
+            <h5>Explore ServiceNow Impact</h5>
+            <p>
+              Get tailored support and strategic guidance to integrate solutions and accelerate value..</p>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="card card-6">
+          <div class="card-left">
+            <img src="./assets/card-6.svg" alt="Demo">
+          </div>
+          <div class="card-right">
+            <h5>Experience a demo</h5>
+            <p>
+              See how the Now Platform® can streamline and unite your organization..</p>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="card card-7">
+          <div class="card-left">
+            <img src="./assets/card-7.svg" alt="developing">
+          </div>
+          <div class="card-right">
+            <h5>Start developing</h5>
+            <p>
+              Experience what it’s like to build apps on the Now Platform with a free account..</p>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="card card-8">
+          <div class="card-left">
+            <img src="./assets/card-8.svg" alt="AI">
+          </div>
+          <div class="card-right">
+            <h5>Succeed with your partners</h5>
+            <p>
+              Whatever your business challenge, our ecosystem of partners will help drive results.</p>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
