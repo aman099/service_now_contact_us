@@ -82,6 +82,9 @@ body {
 	border: none;
 	outline: 1px solid #ffffff;
 }
+.hero-section .hero-left form .input-cont select {
+	background-color: #ffffff !important;
+}
 .hero-section .hero-left form .input-cont textarea {
 	resize: none;
 }
